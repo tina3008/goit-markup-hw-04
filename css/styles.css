@@ -193,7 +193,7 @@ background-color:#404BBF;
 }
 /* section1 -------------------------------*/
 
-.section-title {background-color:#2E2F42;
+.section-title .container {background-color:#2E2F42;
 	background-image: linear-gradient(
       to bottom,
 	  rgba(46, 47, 66, 0.70),
@@ -309,10 +309,13 @@ height: 64px;
 	
 .user_list {background-color: #FFFFFF;
 	
-	border-radius: 0px 0px 4px 4px;}
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 
 .card_title{
 	margin-bottom: 8px;
+	
 
 }
 .card_user{ 
@@ -350,15 +353,49 @@ transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 /* section4 -----------------------------*/
 
 
-portfolio_section{
+.portfolio_section{
 	flex-wrap: wrap;
 	row-gap: 48px;
 }
-.list_prtfolio{
 
-	
+
+
+.list_prtfolio:hover, list_prtfolio:focus{
+	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 	
 }
+/* fly box-------------------- */
+
+
+
+.img-cng{
+	position: relative;
+	overflow: hidden;
+
+	}
+
+.fly-box{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #4D5AE5;
+
+
+transform: translatey(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fly-txt{
+	color: #F4F4FD;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 40px;
+}
+.img-cng:hover .fly-box{
+	transform: translatey(0);
+}
+
 
 .portfolio-sectn {
 	
@@ -367,6 +404,7 @@ portfolio_section{
 	
 }
 .aportfolio-sectn li {width: calc((100% - 48px) / 3);
+	position: relative;
 	
 }
 
