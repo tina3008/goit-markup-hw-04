@@ -374,7 +374,11 @@ justify-content: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sosial-contact:hover, .sosial-contact:focus{
+.sosial-contact:hover{
+	background-color: #404bbf;
+}
+
+.sosial-contact:focus{
 	background-color: #404bbf;
 }
 
