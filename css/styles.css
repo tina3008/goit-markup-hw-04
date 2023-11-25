@@ -344,10 +344,10 @@ height: 64px;
 	
 	/* width: 16px;
 height: 16px; */
-fill: #FFF;
+fill: #f4f4fd ;
 }
 .img_phon{
-	background-color: #4D5AE5;
+	/* background-color: #4D5AE5;
 	width: 40px;
 height: 40px;
 border-radius: 50px;
@@ -357,7 +357,7 @@ align-items: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img_phon:hover, .img_phon:focus{
-	background-color: #31D0AA;
+	background-color: #31D0AA; */
 }
 .sosial-contact{
 width: 100%;
@@ -371,7 +371,7 @@ justify-content: center;
 
 }
 .sosial-contact:hover, .sosial-contact:focus{
-	background-color: #31D0AA;
+	background-color: #404bbf;
 
 /* section4 -----------------------------*/
 
