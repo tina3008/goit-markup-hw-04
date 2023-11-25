@@ -198,7 +198,8 @@ border-radius: 2px;
 
 
 /* section1 -------------------------------*/
-ction-title{
+.section-title{
+	background-color:#2E2F42;
 	background-image: linear-gradient(
 		rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 	url(../images/people-office1.jpg);
@@ -209,13 +210,13 @@ ction-title{
 	max-width: 1440px;	
 	justify-content:center;
 	background-repeat: no-repeat; 
+	
 }
 
 
-.section-title .container {background-color:#2E2F42;
+/* .section-title .container {
 	
-	
-	}
+		} */
 
 .main-name{
 	/* width: 496px; */
@@ -366,8 +367,7 @@ border-radius: 50%;
 display: flex;
 align-items: center; 
 transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-
-
+justify-content: center;
 
 }
 .sosial-contact:hover, .sosial-contact:focus{
