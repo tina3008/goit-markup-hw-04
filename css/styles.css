@@ -513,7 +513,12 @@ padding: 100px 0 100px;
 	display:block;
 	margin-bottom: 16px;
 	}
-	.footer-contact .inet-contact{
+	
+	.inet-contact-footer{
 		display: flex;
 		gap: 16px;
 		justify-content: space-between;
+	}
+ .footer-sosial:hover,  .footer-sosial:focus{
+	background-color: #31d0aa; 
+}
