@@ -481,6 +481,7 @@ padding: 100px 0 100px;
 }
 .footer_main .container{
 	display: flex;
+	align-items: baseline;
 }
 
 .footer_text{
@@ -500,10 +501,15 @@ padding: 100px 0 100px;
 
 .footer-contact{
 	display: block;
-	width: 208px ;
+	width: 208px;
 }
 .footer_media{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	etter-spacing: 0.02em;
 	color:#FFFFFF;
+
 	display:block;
 	margin-bottom: 16px;
 	}
